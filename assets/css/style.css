@@ -24,6 +24,7 @@
     font-variation-settings:"wdth" 100;
 
     font-family: var(--title-font);
+    overflow: hidden;
 }
 .section-space { 
     margin-top: 3rem;
@@ -31,6 +32,7 @@
 }
 .container{
     max-width: 1300px;
+    min-width: 300px;
     margin: 0 auto;
 
     padding: 0 1.5rem;
