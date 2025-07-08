@@ -316,7 +316,7 @@ div.open-menu .menu-open{
     grid-column: 1/2;
 }
 .contatct-cta_link{
-    padding: .6rem 1rem;
+    padding: .6rem .5rem;
     border: 1px solid white;
     border-radius: 2rem;
 }
@@ -355,7 +355,7 @@ div.open-menu .menu-open{
 }
 
 .contatct-cta_link{
-   font-size: 1rem;
+   font-size: .7rem;
    color: white;
    font-weight: 500;
    font-family: var(--title-font);
