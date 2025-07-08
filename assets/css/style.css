@@ -305,6 +305,8 @@ div.open-menu .menu-open{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    align-content: start;
     row-gap: 2rem;
 }
 .hero-title{
