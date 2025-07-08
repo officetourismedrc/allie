@@ -367,7 +367,7 @@ div.open-menu .menu-open{
 .hero-section-desc-right{
     padding: 2rem 1.2rem;
     border-radius: 1rem;
-    background-color: #ffffff2a;
+    background-color: #ffffff10;
     backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.226);
 
@@ -408,7 +408,9 @@ div.open-menu .menu-open{
     font-weight: 400;
     border-radius: 1rem;
 
-    border: 1px solid rgba(255, 255, 255, 0.115);
+    border: 1px solid white;
+
+    background-color: transparent;
 
 }
 .form-cta-button{
@@ -557,10 +559,17 @@ div.open-menu .menu-open{
     width: 100%;
     display: grid;
 
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     /* grid-template-rows: 1fr 1fr; */
     row-gap: 2rem;
 }
+.hero-section-desc-left{
+    grid-column: 1/3;
+}
+.hero-section-desc-right{
+    grid-column: 3/4;
+}
+
     
 }
 
