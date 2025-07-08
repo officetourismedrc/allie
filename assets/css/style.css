@@ -293,6 +293,7 @@ div.open-menu .menu-open{
 }  
 
 .hero-description{
+    padding-top: 6rem;
     width: 100%;
     display: grid;
 
@@ -550,6 +551,16 @@ div.open-menu .menu-open{
     padding-top: 1rem;
     border-top: none;
   }
+
+  .hero-description{
+    padding-top: 0;
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    row-gap: 2rem;
+}
     
 }
 
